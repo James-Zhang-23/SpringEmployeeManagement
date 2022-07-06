@@ -5,7 +5,7 @@ import com.yuzhe.pojo.User;
 
 import java.util.List;
 
-public class BookServiceImpl implements UserService {
+public class UserServiceImpl implements UserService {
 
     private UserMapper userMapper;
     public void setUserMapper(UserMapper userMapper) {
