@@ -1,10 +1,11 @@
-package com.yuzhe.user.service;
+package com.yuzhe.dao;
 
-import com.yuzhe.user.pojo.User;
+import com.yuzhe.pojo.User;
 
 import java.util.List;
 
-public interface UserService {
+public interface UserMapper {
+
     //add
     int addUser(User user);
 
@@ -19,4 +20,5 @@ public interface UserService {
 
     //query all user
     List<User> queryAllUser();
+
 }

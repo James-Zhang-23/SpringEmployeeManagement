@@ -1,11 +1,11 @@
-package com.yuzhe.user.service;
+package com.yuzhe.service;
 
-import com.yuzhe.user.dao.UserMapper;
-import com.yuzhe.user.pojo.User;
+import com.yuzhe.dao.UserMapper;
+import com.yuzhe.pojo.User;
 
 import java.util.List;
 
-public class BookServiceImpl implements UserService{
+public class BookServiceImpl implements UserService {
 
     private UserMapper userMapper;
     public void setUserMapper(UserMapper userMapper) {

@@ -1,4 +1,4 @@
-package com.yuzhe.user.pojo;
+package com.yuzhe.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

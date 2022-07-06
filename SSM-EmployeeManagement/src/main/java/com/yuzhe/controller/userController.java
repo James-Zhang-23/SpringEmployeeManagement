@@ -1,11 +1,11 @@
-package com.yuzhe.user.controller;
+package com.yuzhe.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class userController{
+public class userController {
 
     @RequestMapping(path = "/test")
     public String index(Model model) {
